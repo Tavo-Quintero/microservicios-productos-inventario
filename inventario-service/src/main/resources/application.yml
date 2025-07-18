@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/inventario_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        
+
+microservices:
+  productos:
+    base-url: http://localhost:8082
+    timeout: 5000
+    retry-attempts: 3 
+
+server:
+  port: 8081
+       

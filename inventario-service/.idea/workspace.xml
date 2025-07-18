@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a946291-1900-4459-9e60-655734a01228" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac4a77cb-9998-4dfb-b894-0d1dd46468c1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac4a77cb-9998-4dfb-b894-0d1dd46468c1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraRequestDTO$Attributes$AttributesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraRequestDTO$Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraRequestDTO$Data$DataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraRequestDTO$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraResponseDTO$Attributes$AttributesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraResponseDTO$Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraResponseDTO$Data$DataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraResponseDTO$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioRequestDTO$Attributes$AttributesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioRequestDTO$Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioRequestDTO$Data$DataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioRequestDTO$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioResponseDTO$Attributes$AttributesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioResponseDTO$Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioResponseDTO$Data$DataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioResponseDTO$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/InventarioApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/InventarioApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/controller/InventarioControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/controller/InventarioControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/repository/InventarioRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/repository/InventarioRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/service/InventarioServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/service/InventarioServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/controller/ProductoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Attributes$AttributesBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Attributes$AttributesBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Attributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Attributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Data$DataBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Data$DataBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$ProductoResponseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$ProductoResponseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="303fR9j1CbAk6LESjmrgMKQKnsz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.InventarioApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="InventarioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="inventario-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pruebatecnica.inventario.InventarioApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a946291-1900-4459-9e60-655734a01228" name="Changes" comment="" />
+      <created>1752861167605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752861167605</updated>
+      <workItem from="1752861169607" duration="1022000" />
+      <workItem from="1752862217385" duration="24000" />
+      <workItem from="1752862258307" duration="4905000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
