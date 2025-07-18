@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a946291-1900-4459-9e60-655734a01228" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pruebatecnica/inventario/service/ProductoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pruebatecnica/inventario/service/ProductoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productos-service/src/main/java/com/pruebatecnica/productos/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/src/main/java/com/pruebatecnica/productos/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productos-service/src/main/java/com/pruebatecnica/productos/dto/ProductoResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/src/main/java/com/pruebatecnica/productos/dto/ProductoResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productos-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="7a946291-1900-4459-9e60-655734a01228" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +81,7 @@
       <updated>1752861167605</updated>
       <workItem from="1752861169607" duration="1022000" />
       <workItem from="1752862217385" duration="24000" />
-      <workItem from="1752862258307" duration="4130000" />
+      <workItem from="1752862258307" duration="4905000" />
     </task>
     <servers />
   </component>
