@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  productos-db:
+    image: postgres:15
+    container_name: productos-db
+    environment:
+      POSTGRES_DB: productos_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - productos_data:/var/lib/postgresql/data
+
+  inventario-db:
+    image: postgres:15
+    container_name: inventario-db
+    environment:
+      POSTGRES_DB: inventario_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - inventario_data:/var/lib/postgresql/data
+
+volumes:
+  productos_data:
+  inventario_data:

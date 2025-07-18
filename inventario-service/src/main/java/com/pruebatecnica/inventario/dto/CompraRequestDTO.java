@@ -11,27 +11,27 @@ import lombok.*;
 public class CompraRequestDTO {
     @Schema(description = "Objeto data de JSON API", required = true)
     @NotNull
-    private Data data;
+    private CompraData data;
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
-    public static class Data {
+    public static class CompraData {
         @Schema(description = "Tipo de recurso", example = "compras", required = true)
         @NotBlank
         private String type;
 
         @Schema(description = "Atributos de la compra", required = true)
         @NotNull
-        private Attributes attributes;
+        private CompraAttributes attributes;
     }
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
-    public static class Attributes {
+    public static class CompraAttributes {
         @Schema(description = "ID del producto", required = true)
         @NotNull
         @Min(1)

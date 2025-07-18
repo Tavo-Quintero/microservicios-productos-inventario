@@ -25,10 +25,10 @@ public class InventarioService {
                                 .orElseThrow(() -> new InventarioNoEncontradoException(
                                                 "Inventario no encontrado para productoId: " + productoId));
                 return InventarioResponseDTO.builder()
-                                .data(InventarioResponseDTO.Data.builder()
+                                .data(InventarioResponseDTO.InventarioData.builder()
                                                 .type("inventario")
                                                 .id(inventario.getId().toString())
-                                                .attributes(InventarioResponseDTO.Attributes.builder()
+                                                .attributes(InventarioResponseDTO.InventarioAttributes.builder()
                                                                 .productoId(productoId)
                                                                 .cantidad(inventario.getCantidad())
                                                                 .nombreProducto(producto.getNombre())
@@ -68,10 +68,10 @@ public class InventarioService {
                 inventarioRepository.save(inventario);
 
                 return CompraResponseDTO.builder()
-                                .data(CompraResponseDTO.Data.builder()
+                                .data(CompraResponseDTO.CompraData.builder()
                                                 .type("compras")
                                                 .id(UUID.randomUUID().toString())
-                                                .attributes(CompraResponseDTO.Attributes.builder()
+                                                .attributes(CompraResponseDTO.CompraAttributes.builder()
                                                                 .productoId(productoId)
                                                                 .cantidad(cantidad)
                                                                 .cantidadRestante(inventario.getCantidad())

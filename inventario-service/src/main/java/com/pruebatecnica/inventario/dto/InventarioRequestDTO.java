@@ -11,27 +11,27 @@ import lombok.*;
 public class InventarioRequestDTO {
     @Schema(description = "Objeto data de JSON API", required = true)
     @NotNull
-    private Data data;
+    private InventarioData data;
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
-    public static class Data {
+    public static class InventarioData {
         @Schema(description = "Tipo de recurso", example = "inventario", required = true)
         @NotBlank
         private String type;
 
         @Schema(description = "Atributos del inventario", required = true)
         @NotNull
-        private Attributes attributes;
+        private InventarioAttributes attributes;
     }
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
-    public static class Attributes {
+    public static class InventarioAttributes {
         @Schema(description = "Cantidad disponible", required = true)
         @NotNull
         @Min(0)

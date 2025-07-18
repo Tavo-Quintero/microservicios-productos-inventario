@@ -9,13 +9,13 @@ import lombok.*;
 @Builder
 public class InventarioResponseDTO {
     @Schema(description = "Objeto data de JSON API", required = true)
-    private Data data;
+    private InventarioData data;
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
-    public static class Data {
+    public static class InventarioData {
         @Schema(description = "Tipo de recurso", example = "inventario", required = true)
         private String type;
 
@@ -23,14 +23,14 @@ public class InventarioResponseDTO {
         private String id;
 
         @Schema(description = "Atributos del inventario", required = true)
-        private Attributes attributes;
+        private InventarioAttributes attributes;
     }
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
-    public static class Attributes {
+    public static class InventarioAttributes {
         private Long productoId;
         private Integer cantidad;
         private String nombreProducto;

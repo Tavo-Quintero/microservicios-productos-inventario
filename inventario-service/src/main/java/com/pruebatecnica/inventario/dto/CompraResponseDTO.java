@@ -10,13 +10,13 @@ import java.time.LocalDateTime;
 @Builder
 public class CompraResponseDTO {
     @Schema(description = "Objeto data de JSON API", required = true)
-    private Data data;
+    private CompraData data;
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
-    public static class Data {
+    public static class CompraData {
         @Schema(description = "Tipo de recurso", example = "compras", required = true)
         private String type;
 
@@ -24,14 +24,14 @@ public class CompraResponseDTO {
         private String id;
 
         @Schema(description = "Atributos de la compra", required = true)
-        private Attributes attributes;
+        private CompraAttributes attributes;
     }
 
     @Data
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
-    public static class Attributes {
+    public static class CompraAttributes {
         private Long productoId;
         private Integer cantidad;
         private Integer cantidadRestante;

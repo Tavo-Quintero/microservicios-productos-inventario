@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/inventario_db
+    url: jdbc:postgresql://localhost:5433/inventario_db
     username: postgres
     password: postgres
   jpa:
@@ -10,9 +10,14 @@ spring:
     properties:
       hibernate:
         format_sql: true
+        
 
 microservices:
   productos:
     base-url: http://localhost:8081
     timeout: 5000
     retry-attempts: 3 
+
+server:
+  port: 8081
+       

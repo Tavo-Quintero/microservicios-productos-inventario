@@ -36,7 +36,8 @@ class InventarioServiceTest {
     @Test
     void consultarInventario_exito() {
         Long productoId = 1L;
-        ProductoExternalDTO producto = ProductoExternalDTO.builder().id(1L).nombre("Test").precio(BigDecimal.TEN).build();
+        ProductoExternalDTO producto = ProductoExternalDTO.builder().id(1L).nombre("Test").precio(BigDecimal.TEN)
+                .build();
         InventarioEntity inventario = InventarioEntity.builder().id(1L).productoId(1L).cantidad(10).build();
         when(productoClient.getProductoById(productoId)).thenReturn(producto);
         when(inventarioRepository.findByProductoId(productoId)).thenReturn(Optional.of(inventario));
@@ -55,14 +56,15 @@ class InventarioServiceTest {
     @Test
     void realizarCompra_stockInsuficiente() {
         Long productoId = 1L;
-        ProductoExternalDTO producto = ProductoExternalDTO.builder().id(1L).nombre("Test").precio(BigDecimal.TEN).build();
+        ProductoExternalDTO producto = ProductoExternalDTO.builder().id(1L).nombre("Test").precio(BigDecimal.TEN)
+                .build();
         InventarioEntity inventario = InventarioEntity.builder().id(1L).productoId(1L).cantidad(1).build();
         when(productoClient.getProductoById(productoId)).thenReturn(producto);
         when(inventarioRepository.findByProductoId(productoId)).thenReturn(Optional.of(inventario));
         CompraRequestDTO request = CompraRequestDTO.builder()
-                .data(CompraRequestDTO.Data.builder()
+                .data(CompraRequestDTO.CompraData.builder()
                         .type("compras")
-                        .attributes(CompraRequestDTO.Attributes.builder()
+                        .attributes(CompraRequestDTO.CompraAttributes.builder()
                                 .productoId(productoId)
                                 .cantidad(2)
                                 .build())
@@ -74,18 +76,19 @@ class InventarioServiceTest {
     @Test
     void actualizarCantidad_exito() {
         Long productoId = 1L;
-        ProductoExternalDTO producto = ProductoExternalDTO.builder().id(1L).nombre("Test").precio(BigDecimal.TEN).build();
+        ProductoExternalDTO producto = ProductoExternalDTO.builder().id(1L).nombre("Test").precio(BigDecimal.TEN)
+                .build();
         InventarioEntity inventario = InventarioEntity.builder().id(1L).productoId(1L).cantidad(5).build();
         when(productoClient.getProductoById(productoId)).thenReturn(producto);
         when(inventarioRepository.findByProductoId(productoId)).thenReturn(Optional.of(inventario));
         when(inventarioRepository.save(any())).thenReturn(inventario);
         InventarioRequestDTO request = InventarioRequestDTO.builder()
-                .data(InventarioRequestDTO.Data.builder()
+                .data(InventarioRequestDTO.InventarioData.builder()
                         .type("inventario")
-                        .attributes(InventarioRequestDTO.Attributes.builder().cantidad(20).build())
+                        .attributes(InventarioRequestDTO.InventarioAttributes.builder().cantidad(20).build())
                         .build())
                 .build();
         InventarioResponseDTO response = inventarioService.actualizarCantidad(productoId, request);
         assertThat(response.getData().getAttributes().getCantidad()).isEqualTo(5); // El mock no cambia el valor
     }
-} 
+}
