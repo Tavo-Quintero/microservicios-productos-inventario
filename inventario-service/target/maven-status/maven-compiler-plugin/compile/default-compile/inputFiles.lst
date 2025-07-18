@@ -1,0 +1,17 @@
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\config\GlobalExceptionHandler.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\config\InventarioNoEncontradoException.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\config\ProductoNoEncontradoException.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\config\ServicioProductosNoDisponibleException.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\config\StockInsuficienteException.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\config\WebClientConfig.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\controller\InventarioController.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\dto\CompraRequestDTO.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\dto\CompraResponseDTO.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\dto\InventarioRequestDTO.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\dto\InventarioResponseDTO.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\dto\ProductoExternalDTO.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\InventarioApplication.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\model\InventarioEntity.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\repository\InventarioRepository.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\service\InventarioService.java
+C:\Users\Tavo\OneDrive\Documentos\GitHub\microservicios-productos-inventario\inventario-service\src\main\java\com\pruebatecnica\inventario\service\ProductoClient.java

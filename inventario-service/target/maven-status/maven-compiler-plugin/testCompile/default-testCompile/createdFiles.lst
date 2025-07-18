@@ -1,0 +1,4 @@
+com\pruebatecnica\inventario\controller\InventarioControllerTest.class
+com\pruebatecnica\inventario\InventarioApplicationTests.class
+com\pruebatecnica\inventario\repository\InventarioRepositoryTest.class
+com\pruebatecnica\inventario\service\InventarioServiceTest.class

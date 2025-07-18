@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pruebatecnica.inventario.repository.InventarioRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.77 s -- in com.pruebatecnica.inventario.repository.InventarioRepositoryTest

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pruebatecnica.inventario.controller.InventarioControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.32 s -- in com.pruebatecnica.inventario.controller.InventarioControllerTest

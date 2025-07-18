@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.pruebatecnica.inventario.service.InventarioServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.713 s <<< FAILURE! -- in com.pruebatecnica.inventario.service.InventarioServiceTest
+com.pruebatecnica.inventario.service.InventarioServiceTest.actualizarCantidad_exito -- Time elapsed: 0.266 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 5
+ but was: 20
+	at com.pruebatecnica.inventario.service.InventarioServiceTest.actualizarCantidad_exito(InventarioServiceTest.java:92)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
