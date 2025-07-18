@@ -13,6 +13,8 @@ import org.springframework.web.reactive.function.client.WebClientResponseExcepti
 import reactor.core.publisher.Mono;
 
 import java.time.Duration;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Component
 @RequiredArgsConstructor
@@ -31,13 +33,27 @@ public class ProductoClient {
 
     public ProductoExternalDTO getProductoById(Long id) {
         try {
-            return webClient.get()
+            String responseBody = webClient.get()
                     .uri(productosBaseUrl + "/api/productos/{id}", id)
                     .retrieve()
-                    .bodyToMono(ProductoExternalDTO.class)
+                    .bodyToMono(String.class)
                     .timeout(Duration.ofMillis(timeout))
                     .retry(retryAttempts)
                     .block();
+
+            ObjectMapper mapper = new ObjectMapper();
+            JsonNode root = mapper.readTree(responseBody);
+            JsonNode data = root.path("data");
+            JsonNode attributes = data.path("attributes");
+
+            return ProductoExternalDTO.builder()
+                    .id(data.hasNonNull("id") ? Long.valueOf(data.get("id").asText()) : null)
+                    .nombre(attributes.hasNonNull("nombre") ? attributes.get("nombre").asText() : null)
+                    .precio(attributes.hasNonNull("precio")
+                            ? new java.math.BigDecimal(attributes.get("precio").asText())
+                            : null)
+                    .descripcion(attributes.hasNonNull("descripcion") ? attributes.get("descripcion").asText() : null)
+                    .build();
         } catch (WebClientResponseException.NotFound e) {
             throw new ProductoNoEncontradoException("Producto no encontrado");
         } catch (Exception e) {

@@ -9,18 +9,24 @@ import java.time.LocalDateTime;
 /**
  * DTO para responses de productos (JSON API).
  */
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@ToString
+@EqualsAndHashCode
 public class ProductoResponseDTO {
     @Schema(description = "Objeto data de JSON API", required = true)
     private Data data;
 
- 
+    @Getter
+    @Setter
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
+    @ToString
+    @EqualsAndHashCode
     public static class Data {
         @Schema(description = "Tipo de recurso", example = "productos", required = true)
         private String type;
@@ -32,10 +38,13 @@ public class ProductoResponseDTO {
         private Attributes attributes;
     }
 
-
+    @Getter
+    @Setter
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder
+    @ToString
+    @EqualsAndHashCode
     public static class Attributes {
         @Schema(description = "Nombre del producto", example = "Laptop Gaming", required = true)
         private String nombre;
