@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a946291-1900-4459-9e60-655734a01228" name="Changes" comment="" />
+    <list default="true" id="7a946291-1900-4459-9e60-655734a01228" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac4a77cb-9998-4dfb-b894-0d1dd46468c1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac4a77cb-9998-4dfb-b894-0d1dd46468c1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraRequestDTO$Attributes$AttributesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraRequestDTO$Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraRequestDTO$Data$DataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraRequestDTO$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraResponseDTO$Attributes$AttributesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraResponseDTO$Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraResponseDTO$Data$DataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/CompraResponseDTO$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioRequestDTO$Attributes$AttributesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioRequestDTO$Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioRequestDTO$Data$DataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioRequestDTO$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioResponseDTO$Attributes$AttributesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioResponseDTO$Attributes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioResponseDTO$Data$DataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pruebatecnica/inventario/dto/InventarioResponseDTO$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/InventarioApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/InventarioApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/controller/InventarioControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/controller/InventarioControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/repository/InventarioRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/repository/InventarioRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/service/InventarioServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pruebatecnica/inventario/service/InventarioServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/controller/ProductoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/controller/ProductoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Attributes$AttributesBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Attributes$AttributesBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Attributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Attributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Data$DataBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Data$DataBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$ProductoResponseDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO$ProductoResponseDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../productos-service/target/classes/com/pruebatecnica/productos/dto/ProductoResponseDTO.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,34 +62,34 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.InventarioApplication.executor": "Run",
-    "git-widget-placeholder": "develop",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.InventarioApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="InventarioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="inventario" />
+      <module name="inventario-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pruebatecnica.inventario.InventarioApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
